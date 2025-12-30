@@ -1,4 +1,4 @@
-def ft_count_harvest_recursive():
+def ft_count_harvest_iterative():
     a = int(input("Days until harvest: "))
     y = 1
     for i in range(a):
