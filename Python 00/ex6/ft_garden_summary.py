@@ -1,4 +1,4 @@
-def  ft_garden_summary():
+def ft_garden_summary():
     a = input("Enter garden name: ")
     b = input("Enter number of plants: ")
     print("Garden:", a)
