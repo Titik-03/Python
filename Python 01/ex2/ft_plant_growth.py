@@ -3,12 +3,16 @@ class Plant:
         self.name = name
         self.height = height
         self.aged = aged
+
     def grow(self):
         self.height += 1
+
     def age(self):
         self.aged += 1
+
     def get_info(self):
         return f"{self.name}: {self.height}cm tall, {self.aged} days old"
+
 
 if __name__ == "__main__":
     plant = Plant("carrot", 12, 1)

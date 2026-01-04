@@ -3,8 +3,11 @@ class Plant:
         self.name = name
         self.height = height
         self.days = days
+
     def get_info(self):
         return f"Created: {self.name} ({self.height}cm, {self.days} days)"
+
+
 if __name__ == "__main__":
     plant_data = [
         ("Rose", 25, 30),
